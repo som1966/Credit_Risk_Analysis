@@ -6,7 +6,9 @@ A credit card credit dataset from LendingClub was used to assess credit risk.  T
 ### Naive Random Oversampling
 
   -Accuracy: 64.4%
+  
   -Precision: 99.0%
+  
   -Recall: 64.0%
 
 ![image](https://user-images.githubusercontent.com/89953246/147890219-4b10facf-6b7e-4b87-9ff7-62a0df2f2d7b.png)
