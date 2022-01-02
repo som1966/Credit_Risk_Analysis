@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 ## Overview of Analysis
-  A credit card credit dataset from LendingClub was used to assess credit risk.  To assist with the analysis, Imbalanced-learn and scikit-learn libraries were used to build, evaluate models and resampling techniques.  Oversampling (RandomOverSampler and SMOTE), undersampling(ClusterCentroids) and a combinatorial(SMOTEENN) approach of over and under sampling was completed.  Finally, two new machine learning models were used (BalanceRandomForestClassifier, EasyEnsembleClassifier) to predict credit risk.  Accuracy, Precision and Recall will be evaluated for each technique.
+  A credit card credit dataset from LendingClub was used to assess credit risk.  To assist with the analysis, Imbalanced-learn and scikit-learn libraries were used to build, evaluate models and resampling techniques.  Oversampling (RandomOverSampler and SMOTE), undersampling(ClusterCentroids) and a combinatorial(SMOTEENN) approach of over and under sampling was completed.  Finally, two new machine learning models were used (BalanceRandomForestClassifier, EasyEnsembleClassifier) to predict credit risk.  Accuracy (performance), Precision(predictive) and Recall(sensitivity) will be evaluated for each technique.
 
 ## Results
 ### Naive Random Oversampling
@@ -13,7 +13,7 @@
 
 ![image](https://user-images.githubusercontent.com/89953246/147890219-4b10facf-6b7e-4b87-9ff7-62a0df2f2d7b.png)
 
-### SMOTE Oversampling
+### SMOTE (Oversampling)
 
 -Accuracy:  66.1%
   
@@ -65,3 +65,4 @@
 
 
 ## Summary
+Accuracy, precision and recall scores were reveiwed for each technique.  The accuracy score (performance) was heavily weighted in providing the recommendation for which technique should be used.  The ensemble algorithms were the better choice for this type of analysis; the Easy Ensemble AdaBoost Classier would be the first choice with an accuracy score of 92% followed by the Balanced Random Classifier (78%).  Precision scores were the same for all the models. Naive and SMOTE oversampling techniques were comparative in accuracy.  Finally, the techniques used should be reflective of the dataset and the analysis that is required.
